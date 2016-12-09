@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <PreferenceCategory
+        android:key="aa"
+        android:summary="categaty"
+        android:title="category title">
+
+
+
+
+        <SwitchPreference
+            android:key="wifi_settings"
+            android:summary="SwitchPreference"
+            android:title="swit"
+
+            ></SwitchPreference>
+
+
+        <Preference
+            android:key="preference0"
+            android:summary="preference0"
+            android:title="preference" >
+        </Preference>
+
+        <EditTextPreference
+            android:key="edit"
+            android:summary="密码"
+            android:title="登陆密码"
+            >
+        </EditTextPreference>
+
+        <CheckBoxPreference
+            android:key="checkbox"
+            android:summary="Switch"
+            android:title="Switchtitle"
+            ></CheckBoxPreference>
+
+
+        <RingtonePreference
+            android:key="ringtone"
+            android:summary="铃声"
+            android:title="Switchtitle"
+            ></RingtonePreference>
+
+
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="a1a"
+        android:summary="catega1ty"
+        android:title="category title">
+
+
+        <EditTextPreference
+            android:key="edit"
+            android:summary="密码"
+            android:title="登陆密码"
+            >
+        </EditTextPreference>
+
+
+        <RingtonePreference
+            android:key="ringtonea"
+            android:summary="铃声"
+            android:title="Switchtitle"
+            ></RingtonePreference>
+
+
+    </PreferenceScreen>
+
+
+</PreferenceScreen>
